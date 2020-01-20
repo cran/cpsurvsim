@@ -1,8 +1,8 @@
 Package: cpsurvsim
 Type: Package
 Title: Simulating Survival Data from Change-Point Hazard Distributions
-Version: 1.1.0
-Date: 2019-05-07
+Version: 1.2.0
+Date: 2020-01-20
 Author: Camille Hochheimer [aut, cre]
 Authors@R: person("Camille", "Hochheimer", 
     email = "hochheimercj@vcu.edu", role = c("aut", "cre"))
@@ -15,17 +15,17 @@ Description: Simulates time-to-event data
     include two parametric distributions: exponential and Weibull.
     Inverse CDF method draws on the work of Rainer Walke (2010), 
     <https://www.demogr.mpg.de/papers/technicalreports/tr-2010-003.pdf>.
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.6.0)
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-Imports: plyr (>= 1.8.0), stats, Hmisc, knitr (>= 1.21)
-Suggests: rmarkdown
-RoxygenNote: 6.1.1
+Imports: plyr (>= 1.8.5), stats, Hmisc (>= 4.3.0), knitr (>= 1.27)
+Suggests: rmarkdown, testthat
+RoxygenNote: 7.0.2
 VignetteBuilder: knitr
 URL: http://github.com/camillejo/cpsurvsim
 BugReports: http://github.com/camillejo/cpsurvsim/issues
 NeedsCompilation: no
-Packaged: 2019-05-31 15:46:32 UTC; Camille
+Packaged: 2020-01-20 19:01:00 UTC; Camille
 Repository: CRAN
-Date/Publication: 2019-06-03 13:00:07 UTC
+Date/Publication: 2020-01-20 21:00:02 UTC
